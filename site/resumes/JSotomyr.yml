@@ -1,0 +1,112 @@
+template: "online-cv"
+skin: "grey"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Jaime
+    last_name: Sotomayor
+
+    # Define yourself in 4-5 words
+    motto: Be yourself and be better
+
+    # focus
+    focus: Be better than yesterday
+
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: https://avatars.githubusercontent.com/u/89789808?v=4
+
+    # Contact Information
+    email: jaime.sotomayor.rodriguez@gmail.com #optional
+    phone: 648750727
+    website:  #optional
+    linkedin: https://www.linkedin.com/in/jaime-sotomayor-19136985 #optional
+
+    #
+    # ******** IMPORTANT *******
+    # This github username will be use to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: JSotomayr
+
+    twitter: jsotomayorphoto #optional
+
+    # languages you speak, levels inculde: Native, Professional
+    languages:
+      - idiom: Spanish
+        level: Native
+
+      - idiom: English
+        level: Advanced
+
+      - idiom: Portuguesse
+        level: Basic
+
+    # Interests or hobies
+    interests:
+      - item: Cinema/fiction
+
+      - item: Videogames
+
+      - item: Music
+
+# Your previous education
+education:
+    - degree: FullStack Development
+      university: 4Geeks Academy
+      # optional
+      university_logo: https://carnejovenmadrid.com/sites/default/files/ventajas/4geeks.jpg
+      time: 2021
+
+    - degree: MA in Filmmaking
+      university: Kingston University
+      # optional
+      university_logo: https://d68b3152cf5d08c2f050-97c828cc9502c69ac5af7576c62d48d6.ssl.cf3.rackcdn.com/includes/img/site-cms/Kingston_University_London_logo_320-desktop-black.png
+      time: 2015-2016
+
+    - degree: Audiovisual Communication
+      university: Universidad Pontificia de Salamanca
+      # optional
+      university_logo: https://www.upsa.es/img/cabecera_movil.png
+      time: 2011-2015
+
+# Your previous job experiences or voluntier
+experiences:
+    - role: Video Technician in live events
+      time: 2017-2021
+      company: Gam Eventos
+      # optional
+      details: |
+        Responsabilities:
+          - P.R. in live events with national and international clients.
+          - Creative and technical consultant in audiovisual content for live eventos.
+          - Content manager programs consultant in live eventes (WatchOut, Resolume, Qlab, etc).
+          - Live events producer/director (Blackmagic Atem systems).
+    - role: Radio Control Technician
+      time: 2015
+      company: Cadena Ser, Radio Salamanca
+      # optional
+      details: |
+        Responsabilities:
+
+          - Management and control of radio signals with mobile unit.
+          - Content manager during broadcasts.
+skills:
+    toolset:
+      - name: Python & Django
+        level: 0% (for now)
+
+      - name: Javascript & jQuery
+        level: 98%
+
+      - name: Angular
+        level: 98%
+
+      - name: HTML5 & CSS
+        level: 90%
+
+      - name: Final cut
+        level: 85%
+
+      - name: Adobe Suit
+        level: 80%
